@@ -34,8 +34,8 @@ set(CAM_LIBS
 
 set(GL_LIBS
 # openGLES
-    GLESv2
-    EGL
+    brcmGLESv2
+    brcmEGL
 )
 
 set(ILC_LIBS
