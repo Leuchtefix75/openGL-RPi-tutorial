@@ -1,3 +1,12 @@
+...it's absolutly worth to play with and learn fundamental things!
+it uses the proprietary BRCM lib's... may try to use something else
+... and GLM, so nearly all work is done by the GPU
+I love it! ...and Suzanne ;)
+...
+I had an issue with vcos_types.h ,because COUNTOF is somewhere else declared. 
+// #define countof(x) (sizeof((x)) / sizeof((x)[0]))
+
+
 openGLES 2.0 tutorial for Raspberry Pi
 
 Install necessary tools:
