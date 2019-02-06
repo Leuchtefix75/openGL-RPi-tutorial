@@ -2,6 +2,8 @@ It's absolutly worth to play with and learn fundamental things!
 
 It uses the proprietary BRCM lib's... may try to use something else
 
+libgles2-mesa-dev libegl1-mesa-dev
+
 and GLM, so nearly all work is done by the GPU
 
 I love it! ...and Suzanne ;)
