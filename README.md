@@ -1,9 +1,5 @@
 It's absolutly worth to play with and learn fundamental things! ..about GLES2.0 and up
-
-It uses the proprietary BRCM lib's... may try to use something else
-
-libgles2-mesa-dev libegl1-mesa-dev(missing KHR libs and headers)
-
+(it uses the proprietary BRCM lib's... may try to use something else like libgles2-mesa-dev libegl1-mesa-dev(missing KHR libs and headers)
 and GLM, so nearly all work is done by the GPU, awesome! I love it! ...and Suzanne from Blender;)
 
 sudo apt install libglm-dev 
@@ -13,7 +9,6 @@ sudo leafpad /usr/include/glm/gtx/euler_angles.hpp
 
 
 I had an issue with vcos_types.h ,because COUNTOF is somewhere else declared. 
-
 // #define countof(x) (sizeof((x)) / sizeof((x)[0]))
 
 ============== origilnal description ================
