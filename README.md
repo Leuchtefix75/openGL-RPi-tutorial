@@ -17,6 +17,7 @@ I had an issue with vcos_types.h ,because COUNTOF is somewhere else declared.
 // #define countof(x) (sizeof((x)) / sizeof((x)[0]))
 
 ============== origilnal description ================
+
 openGLES 2.0 tutorial for Raspberry Pi
 
 Install necessary tools:
