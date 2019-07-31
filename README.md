@@ -6,9 +6,9 @@ libgles2-mesa-dev libegl1-mesa-dev(missing KHR libs and headers)
 
 and GLM, so nearly all work is done by the GPU, awesome! I love it! ...and Suzanne from Blender;)
 
-sudo apt install libglm-dev
-sudo leafpad /usr/include/glm/gtx/euler_angles.hpp
-#define GLM_ENABLE_EXPERIMENTAL
+sudo apt install libglm-dev 
+sudo leafpad /usr/include/glm/gtx/euler_angles.hpp 
+#define GLM_ENABLE_EXPERIMENTAL 
 #include "../glm.hpp"
 
 
