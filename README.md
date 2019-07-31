@@ -1,20 +1,22 @@
-It's absolutly worth to play with and learn fundamental things! 
+It's absolutly worth to play with and learn fundamental things! ..about GLES2.0 and up
 
 It uses the proprietary BRCM lib's... may try to use something else
 
 libgles2-mesa-dev libegl1-mesa-dev(missing KHR libs and headers)
 
-and GLM, so nearly all work is done by the GPU
+and GLM, so nearly all work is done by the GPU, awesome! I love it! ...and Suzanne from Blender;)
 
-I love it! ...and Suzanne ;)
+sudo apt install libglm-dev
+sudo leafpad /usr/include/glm/gtx/euler_angles.hpp
+#define GLM_ENABLE_EXPERIMENTAL
+#include "../glm.hpp"
 
-...
 
 I had an issue with vcos_types.h ,because COUNTOF is somewhere else declared. 
 
 // #define countof(x) (sizeof((x)) / sizeof((x)[0]))
 
-
+============== origilnal description ================
 openGLES 2.0 tutorial for Raspberry Pi
 
 Install necessary tools:
